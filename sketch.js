@@ -32,7 +32,7 @@ function setup() {
     slider2 = createSlider(-0.5, 0.5, 0.0, 0.01);
     slider3 = createSlider(-0.5, 0.5, 0.0, 0.01);
     slider4 = createSlider(0.0, 100.0, 0.0, 1.0);
-    slider5 = createSlider(0.0, 360.0, 0.0, 1.0);
+    slider5 = createSlider(-180.0, 180.0, 0.0, 1.0);
     button = createButton('Start');
 		button.id("start");
     // info = createButton('Info');
